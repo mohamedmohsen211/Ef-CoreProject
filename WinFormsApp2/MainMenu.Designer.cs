@@ -54,7 +54,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1158, 78);
+            panel1.Size = new Size(1029, 67);
             panel1.TabIndex = 5;
             // 
             // aloneButton2
@@ -63,11 +63,12 @@
             aloneButton2.EnabledCalc = true;
             aloneButton2.Font = new Font("Segoe UI", 9F);
             aloneButton2.ForeColor = Color.FromArgb(124, 133, 142);
-            aloneButton2.Location = new Point(1092, 3);
+            aloneButton2.Location = new Point(947, 21);
             aloneButton2.Name = "aloneButton2";
-            aloneButton2.Size = new Size(28, 28);
+            aloneButton2.Size = new Size(36, 27);
             aloneButton2.TabIndex = 14;
             aloneButton2.Text = "_";
+            aloneButton2.Click += aloneButton2_Click;
             // 
             // aloneButton1
             // 
@@ -75,9 +76,9 @@
             aloneButton1.EnabledCalc = true;
             aloneButton1.Font = new Font("Segoe UI", 9F);
             aloneButton1.ForeColor = Color.FromArgb(124, 133, 142);
-            aloneButton1.Location = new Point(1126, 3);
+            aloneButton1.Location = new Point(989, 21);
             aloneButton1.Name = "aloneButton1";
-            aloneButton1.Size = new Size(28, 28);
+            aloneButton1.Size = new Size(37, 27);
             aloneButton1.TabIndex = 13;
             aloneButton1.Text = "X";
             aloneButton1.Click += aloneButton1_Click;
@@ -93,7 +94,7 @@
             panel2.Controls.Add(button6);
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(170, 732);
+            panel2.Size = new Size(151, 697);
             panel2.TabIndex = 7;
             panel2.Paint += panel2_Paint;
             // 
@@ -106,10 +107,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Image = Properties.Resources.icons8_export_50;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(4, 363);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Location = new Point(4, 346);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(225, 90);
+            button1.Size = new Size(200, 86);
             button1.TabIndex = 24;
             button1.Text = "    Export";
             button1.UseVisualStyleBackColor = false;
@@ -121,7 +122,7 @@
             panel3.Controls.Add(bigLabel1);
             panel3.Location = new Point(1, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(168, 78);
+            panel3.Size = new Size(149, 67);
             panel3.TabIndex = 13;
             // 
             // bigLabel1
@@ -130,9 +131,9 @@
             bigLabel1.BackColor = Color.Transparent;
             bigLabel1.Font = new Font("Segoe UI", 25F);
             bigLabel1.ForeColor = Color.Black;
-            bigLabel1.Location = new Point(13, 13);
+            bigLabel1.Location = new Point(12, 12);
             bigLabel1.Name = "bigLabel1";
-            bigLabel1.Size = new Size(100, 46);
+            bigLabel1.Size = new Size(125, 57);
             bigLabel1.TabIndex = 24;
             bigLabel1.Text = "3lraik";
             // 
@@ -145,10 +146,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Image = Properties.Resources.icons8_exit_sign_50;
             button2.ImageAlign = ContentAlignment.BottomCenter;
-            button2.Location = new Point(-55, 512);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Location = new Point(-49, 488);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
-            button2.Size = new Size(216, 87);
+            button2.Size = new Size(192, 83);
             button2.TabIndex = 25;
             button2.Text = "    Exit";
             button2.TextAlign = ContentAlignment.BottomRight;
@@ -164,10 +165,10 @@
             button8.FlatStyle = FlatStyle.Flat;
             button8.Image = Properties.Resources.icons8_modify_50;
             button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.Location = new Point(0, 276);
-            button8.Margin = new Padding(4, 4, 4, 4);
+            button8.Location = new Point(0, 263);
+            button8.Margin = new Padding(4);
             button8.Name = "button8";
-            button8.Size = new Size(229, 78);
+            button8.Size = new Size(204, 74);
             button8.TabIndex = 22;
             button8.Text = "    Edit";
             button8.UseVisualStyleBackColor = false;
@@ -182,10 +183,10 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Image = Properties.Resources.icons8_add_50;
             button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(4, 190);
-            button7.Margin = new Padding(4, 4, 4, 4);
+            button7.Location = new Point(4, 181);
+            button7.Margin = new Padding(4);
             button7.Name = "button7";
-            button7.Size = new Size(229, 77);
+            button7.Size = new Size(204, 73);
             button7.TabIndex = 21;
             button7.Text = "    Add File";
             button7.UseVisualStyleBackColor = false;
@@ -200,10 +201,10 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Image = (Image)resources.GetObject("button6.Image");
             button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(0, 99);
-            button6.Margin = new Padding(4, 4, 4, 4);
+            button6.Location = new Point(0, 94);
+            button6.Margin = new Padding(4);
             button6.Name = "button6";
-            button6.Size = new Size(229, 83);
+            button6.Size = new Size(204, 79);
             button6.TabIndex = 19;
             button6.Text = "    Home";
             button6.UseVisualStyleBackColor = false;
@@ -211,24 +212,24 @@
             // 
             // panelshow
             // 
-            panelshow.Location = new Point(167, 77);
+            panelshow.Location = new Point(150, 68);
             panelshow.Name = "panelshow";
-            panelshow.Size = new Size(991, 539);
+            panelshow.Size = new Size(879, 518);
             panelshow.TabIndex = 13;
             panelshow.Paint += panelshow_Paint;
             // 
             // MainMenu
             // 
             AllowDrop = true;
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
-            ClientSize = new Size(1158, 616);
+            ClientSize = new Size(1029, 587);
             Controls.Add(panelshow);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
@@ -251,7 +252,7 @@
         private ReaLTaiizor.Controls.BigLabel bigLabel1;
         private Button button2;
         private Panel panel3;
-        private Panel panelshow;
         private Button button1;
+        private Panel panelshow;
     }
 }

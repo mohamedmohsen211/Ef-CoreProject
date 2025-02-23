@@ -110,7 +110,12 @@ namespace WinFormsApp2
         }
         private void panelshow_Paint(object sender, PaintEventArgs e)
         {
-            openchildform(new Loggedin(), sender);
+            //openchildform(new Loggedin(), sender);
+        }
+
+        private void aloneButton2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
