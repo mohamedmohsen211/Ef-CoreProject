@@ -63,7 +63,7 @@
             aloneButton2.EnabledCalc = true;
             aloneButton2.Font = new Font("Segoe UI", 9F);
             aloneButton2.ForeColor = Color.FromArgb(124, 133, 142);
-            aloneButton2.Location = new Point(947, 21);
+            aloneButton2.Location = new Point(932, 21);
             aloneButton2.Name = "aloneButton2";
             aloneButton2.Size = new Size(36, 27);
             aloneButton2.TabIndex = 14;
@@ -76,7 +76,7 @@
             aloneButton1.EnabledCalc = true;
             aloneButton1.Font = new Font("Segoe UI", 9F);
             aloneButton1.ForeColor = Color.FromArgb(124, 133, 142);
-            aloneButton1.Location = new Point(989, 21);
+            aloneButton1.Location = new Point(980, 21);
             aloneButton1.Name = "aloneButton1";
             aloneButton1.Size = new Size(37, 27);
             aloneButton1.TabIndex = 13;
