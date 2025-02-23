@@ -13,7 +13,7 @@ namespace WinFormsApp2.DAL.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.;Database=new1111;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=PewPewMohamedMohsen;Integrated Security=True;TrustServerCertificate=True");
         }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<user_pass> user_pass { get; set; }
