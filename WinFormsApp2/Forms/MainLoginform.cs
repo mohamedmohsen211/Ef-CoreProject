@@ -42,47 +42,6 @@ namespace WinFormsApp2.Forms
             }
         }
 
-
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        con.Open();
-
-        //        // Query to check if the username and password match
-        //        string query = "SELECT * FROM user_pass WHERE username = @username AND password = @password";
-        //        cmd = new SqlCommand(query, con);
-        //        cmd.Parameters.AddWithValue("@username", textBox1.Text); // Use parameters to prevent SQL injection
-        //        cmd.Parameters.AddWithValue("@password", textBox2.Text);
-
-        //        SqlDataReader dr = cmd.ExecuteReader();
-
-        //        if (dr.Read())
-        //        {
-        //            // Login successful
-        //            new MainMenu().Show();
-        //            this.Hide();
-        //        }
-        //        else
-        //        {
-        //            // Login failed
-        //            MessageBox.Show("Invalid username or password", "Login failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //            textBox1.Text = "";
-        //            textBox2.Text = "";
-        //            textBox1.Focus();
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("Error: " + ex.Message);
-        //    }
-        //    finally
-        //    {
-        //        con.Close();
-        //    }
-        //}
-
-
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -92,31 +51,6 @@ namespace WinFormsApp2.Forms
         {
 
         }
-
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    con.Open();
-        //    string query = "SELECT * FROM tbl_users WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'";
-        //    cmd = new OleDbCommand(query, con);
-        //    OleDbDataReader dr = cmd.ExecuteReader();
-
-        //    if (dr.Read() == true)
-        //    {
-        //        new MainMenu().Show();
-        //        this.Hide();
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Invalid username or password", "Login failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        textBox1.Text = "";
-        //        textBox2.Text = "";
-        //        textBox1.Focus();
-        //    }
-
-
-
-        //}
-
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";

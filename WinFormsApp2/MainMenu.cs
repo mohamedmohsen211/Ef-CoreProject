@@ -108,10 +108,9 @@ namespace WinFormsApp2
             openchildform(new Export(), sender);
 
         }
-
         private void panelshow_Paint(object sender, PaintEventArgs e)
         {
-
+            openchildform(new Loggedin(), sender);
         }
     }
 }
